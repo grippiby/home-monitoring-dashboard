@@ -1,0 +1,48 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* размер контейнера кнопки*/
+	width: 314px;
+	height: 62px;
+	/* 	max-width: 314px;
+	min-width: 220px;
+	max-height: 62px;
+	min-height: 42px; */
+	background-color: #e7ecef;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: rgba(39, 76, 119, 1);
+}
+.text {
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	size: 20px;
+	font-size: 20px;
+	line-height: 24px;
+}
+.image {
+	width: 3rem;
+	height: 30px;
+	padding-right: 21px;
+}
+.image_logo {
+	width: 100%;
+}
+.active {
+	font-size: 22px;
+	color: #e7ecef;
+}
+.container:hover {
+	background-color: #274c77;
+	color: #e7ecef;
+}
+.text:hover {
+	background-color: #274c77;
+	color: #e7ecef;
+}
+.container:hover img {
+	filter: invert(100%);
+	transition: all 0.2s ease-in-out;
+	transform: scale(1.5);
+}

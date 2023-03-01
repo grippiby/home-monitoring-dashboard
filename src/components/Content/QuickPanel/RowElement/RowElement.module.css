@@ -1,0 +1,24 @@
+.container {
+	/* background: rgb(144, 138, 138); */
+	width: 200px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.logo {
+	border: 1px solid #000;
+	width: 30px;
+	height: 30px;
+	margin: auto 5px;
+}
+.logo img {
+}
+.text {
+	font-size: 16px;
+	line-height: 19.2px;
+	font-weight: 600;
+}
+.toggle {
+	margin-left: auto;
+}
